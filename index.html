@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سياسة الخصوصية — المُعين</title>
+<style>
+  :root {
+    --bg: #F8F4EC;
+    --surface: #FFFDF8;
+    --text: #1F2A25;
+    --text-secondary: #55625B;
+    --primary: #0B6B50;
+    --border: #DDD3C0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11170F;
+      --surface: #1A221A;
+      --text: #EDE7DA;
+      --text-secondary: #AEB6A9;
+      --primary: #6FD6AE;
+      --border: #2E382B;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    line-height: 1.9;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  h1 { color: var(--primary); font-size: 1.8rem; }
+  h2 { color: var(--primary); font-size: 1.25rem; margin-top: 2.2em; }
+  table { width: 100%; border-collapse: collapse; margin: 1em 0; }
+  th, td { border: 1px solid var(--border); padding: 8px 12px; text-align: right; }
+  th { background: var(--surface); }
+  .meta { color: var(--text-secondary); font-size: 0.9rem; }
+  a { color: var(--primary); }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
+  .en { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+
+<h1>سياسة الخصوصية — المُعين (المعين على حفظ متون الدين)</h1>
+<p class="meta">آخر تحديث: ١ أكتوبر ٢٠٢٦</p>
+
+<p>هذه السياسة تشرح بوضوح ما يجمعه تطبيق "المُعين" وما لا يجمعه. الخلاصة:
+<strong>لا نجمع أي بيانات شخصية منك</strong>. كل ما يحتاجه التطبيق ليعمل
+يبقى على جهازك.</p>
+
+<h2>من نحن</h2>
+<p>"المُعين" تطبيق فردي غير ربحي يطوّره فيصل عماري، لمساعدة طلبة العلم على
+حفظ المتون العلمية الكلاسيكية (كالشاطبية وطيبة النشر) بتلاوة صوتية متزامنة
+مع النص.</p>
+
+<h2>ما لا يجمعه التطبيق</h2>
+<ul>
+  <li><strong>لا حسابات ولا تسجيل دخول.</strong> لا تُنشئ حسابًا، ولا نطلب
+    اسمك أو بريدك أو رقم هاتفك لاستخدام التطبيق.</li>
+  <li><strong>لا نجمع بيانات شخصية</strong> (الاسم، البريد، الموقع
+    الجغرافي، جهات الاتصال، الصور، الملفات).</li>
+  <li><strong>لا إعلانات ولا شبكات تتبّع إعلاني.</strong></li>
+  <li><strong>لا مشاركة بيانات مع أي طرف ثالث لأغراض تجارية.</strong></li>
+  <li><strong>تقدّمك في الحفظ يبقى كاملًا على جهازك فقط</strong>، في قاعدة
+    بيانات محلية. لا نرفعه لأي خادم.</li>
+</ul>
+
+<h2>ما يحدث عند استخدام التطبيق</h2>
+<p><strong>تنزيل المحتوى:</strong> عند اختيارك تنزيل متن، يتصل التطبيق
+بخوادمنا (Railway وCloudflare R2) لجلب الملفات العامة. بعد التنزيل،
+<strong>يعمل التطبيق بالكامل بلا اتصال بالإنترنت.</strong></p>
+<p><strong>السجلات التقنية القياسية:</strong> خوادمنا ومزوّدو الاستضافة قد
+يسجّلون بيانات تقنية عامة (مثل عنوان IP) لأغراض تشغيلية وأمنية بحتة، كما
+يفعل أي خادم ويب. هذه السجلات لا تُربط بهويتك.</p>
+
+<h2>تقارير الأعطال (Sentry)</h2>
+<p>إن تعطّل التطبيق، قد يُرسَل تقرير عطل تلقائي إلى
+<a href="https://sentry.io" target="_blank" rel="noopener">Sentry</a> لمساعدتنا
+على إصلاح الخلل. يُرسَل فقط من نسخة الإصدار النهائي، ويحتوي حصرًا على:
+رسالة الخطأ، تتبّع الاستدعاء، نوع الجهاز ونظام التشغيل، وإصدار التطبيق.
+<strong>لا يحتوي أبدًا</strong> على اسمك أو بريدك أو أي محتوى كنت تقرأه أو
+لقطة شاشة. يخضع لـ<a href="https://sentry.io/privacy/" target="_blank" rel="noopener">سياسة خصوصية Sentry</a>.</p>
+
+<h2>أذونات التطبيق</h2>
+<table>
+  <tr><th>الإذن</th><th>لماذا نحتاجه</th></tr>
+  <tr><td>الإنترنت</td><td>تنزيل المتون والتلاوات من خوادمنا</td></tr>
+  <tr><td>تشغيل صوت في الخلفية</td><td>استمرار التلاوة أثناء قفل الشاشة أو تصفّح تطبيقات أخرى</td></tr>
+  <tr><td>إشعارات (Android 13+)</td><td>عناصر تحكّم التشغيل من شاشة القفل</td></tr>
+</table>
+<p>لا يطلب التطبيق إذن الكاميرا أو الميكروفون أو الموقع أو جهات الاتصال.</p>
+
+<h2>الأطفال</h2>
+<p>التطبيق محتوى تعليمي عام مناسب لكل الأعمار، ولا يجمع بيانات من أي
+مستخدم بغض النظر عن عمره (COPPA-compliant by design).</p>
+
+<h2>التغييرات على هذه السياسة</h2>
+<p>سيُنشَر أي تحديث مستقبلي على هذا الرابط نفسه مع تاريخ التحديث أعلاه.</p>
+
+<h2>التواصل</h2>
+<p><strong>البريد الإلكتروني:</strong> faisal@omaridesign.com</p>
+
+<hr>
+
+<h2 class="en">Privacy Policy — Al-Mu'in (English summary)</h2>
+<p class="en">Al-Mu'in is an offline-first educational app for memorizing
+classical Islamic texts. We do not collect any personal data. There are
+no user accounts. Your memorization progress, bookmarks, and settings are
+stored only locally on your device. Downloading a text/recitation makes
+an ordinary network request to our own servers (Railway + Cloudflare R2)
+to fetch public content files — no personal data is sent. In release
+builds only, anonymous crash reports (error message, stack trace,
+device/OS type, app version — never personal data, screenshots, or app
+content) may be sent to Sentry, a crash-reporting service, to help us fix
+bugs. No ads, no trackers, no third-party data sharing. Contact:
+faisal@omaridesign.com.</p>
+
+</body>
+</html>
